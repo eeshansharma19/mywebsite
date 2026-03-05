@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Resume Website</title>
+    <meta
+      name="description"
+      content="Personal website built from resume details: experience, projects, skills, and contact info."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Spectral:ital,wght@0,400;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-shape bg-shape-1" aria-hidden="true"></div>
+    <div class="bg-shape bg-shape-2" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <nav class="nav wrap">
+        <a class="brand" href="#home">Portfolio</a>
+        <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#awards">Awards</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="home" class="wrap">
+      <section class="hero reveal">
+        <p class="kicker" id="hero-role">Role</p>
+        <h1 id="hero-name">Your Name</h1>
+        <p class="hero-summary" id="hero-summary"></p>
+        <div class="hero-actions">
+          <a id="resume-link" class="btn primary" href="#" target="_blank" rel="noopener">View Resume</a>
+          <a class="btn ghost" href="#contact">Contact</a>
+        </div>
+        <ul class="meta" id="hero-meta"></ul>
+      </section>
+
+      <section id="about" class="panel reveal">
+        <h2>About</h2>
+        <p id="about-text"></p>
+      </section>
+
+      <section id="experience" class="panel reveal">
+        <h2>Experience</h2>
+        <div id="experience-list" class="stack"></div>
+      </section>
+
+      <section id="projects" class="panel reveal">
+        <h2>Projects</h2>
+        <div id="project-list" class="grid"></div>
+      </section>
+
+      <section id="skills" class="panel reveal">
+        <h2>Skills</h2>
+        <div id="skills-list" class="chips"></div>
+      </section>
+
+      <section id="awards" class="panel reveal">
+        <h2>Awards & Achievements</h2>
+        <div id="awards-list" class="stack"></div>
+      </section>
+
+      <section id="education" class="panel reveal">
+        <h2>Education</h2>
+        <div id="education-list" class="stack"></div>
+      </section>
+
+      <section id="contact" class="panel reveal">
+        <h2>Contact</h2>
+        <p>Open to internships, full-time opportunities, and collaborations.</p>
+        <ul id="contact-list" class="contact-list"></ul>
+      </section>
+    </main>
+
+    <footer class="wrap footer">
+      <p id="footer-text"></p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
