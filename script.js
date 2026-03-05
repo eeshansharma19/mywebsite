@@ -2,7 +2,7 @@ const resumeData = {
   name: "Eeshan Sharma",
   role: "Co-Founder & COO",
   location: "Bengaluru, India",
-  email: "eeshan7r@gmail.com",
+  email: "eeshan7c@gmail.com",
   phone: "+91 63778 29027",
   website: "",
   linkedin: "http://linkedin.com/in/sharma-eeshan",
