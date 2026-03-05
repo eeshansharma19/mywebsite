@@ -7,6 +7,7 @@ const resumeData = {
   website: "",
   linkedin: "http://linkedin.com/in/sharma-eeshan",
   github: "",
+  profileImage: "./profile.jpg",
   resumeUrl: "./resume.pdf",
   summary:
     "Co-founded and scaled a YC-backed startup, BharatX, from early stage to a $2.5M ARR business with strong cashflow, acquisition by Flipkart, and large-scale fintech operations across India.",
@@ -206,6 +207,7 @@ function init() {
   setText("hero-summary", resumeData.summary);
   setText("about-text", resumeData.about);
   document.getElementById("resume-link").href = resumeData.resumeUrl || "#";
+  document.getElementById("profile-photo").src = resumeData.profileImage || "./profile.jpg";
   document.getElementById("footer-text").textContent = `${new Date().getFullYear()} ${resumeData.name}`;
 
   renderMeta();

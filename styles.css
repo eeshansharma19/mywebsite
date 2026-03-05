@@ -88,6 +88,16 @@ main {
   position: relative;
 }
 
+.profile-photo {
+  width: 116px;
+  height: 116px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid rgba(255, 255, 255, 0.95);
+  box-shadow: var(--shadow);
+  margin-bottom: 1rem;
+}
+
 .kicker {
   color: var(--accent);
   font-weight: 700;
