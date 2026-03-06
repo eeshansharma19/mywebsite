@@ -90,7 +90,9 @@ main {
 
 .hero-layout {
   display: flex;
+  flex-direction: row-reverse;
   align-items: flex-start;
+  justify-content: space-between;
   gap: 1.25rem;
 }
 
